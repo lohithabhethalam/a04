@@ -1,0 +1,30 @@
+[
+    { 
+        "_id": 1,
+        "productKey": "Iphone XS Max",
+        "description": "Best phone ever!",
+        "unitPrice": 1259,
+        "type": "Ios"
+    },
+    {
+        "_id": 2,
+        "productKey": "Samsung S9 Note",
+        "description": "Budget phone",
+        "unitPrice": 899,
+        "type": "Andriod"
+    },
+    {
+        "_id": 3,
+        "productKey": "Moto G-4 Plus",
+        "description": "slim Phone with best features",
+        "unitPrice": 200,
+        "type": "Andriod"
+    },
+    {
+        "_id": 2,
+        "productKey": "Nokia-5.1 plus",
+        "description": "Strongest  phone android 1",
+        "unitPrice": 180,
+        "type": "Andriod"
+    }
+]

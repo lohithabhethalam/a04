@@ -1,0 +1,54 @@
+
+[
+    {
+        "_id": 1,
+        "orderID": 303,
+        "email": "lohithabhethalam@gmail.com",
+        "datePlaced": "2018-12-25",
+        "dateShipped": "2018-12-30",
+        "paymentType": "Cash",
+        "amountDue": 34.98
+      
+    },
+    {
+        "_id": 2,
+        "orderID": 403,
+        "email": "lohithavarma03@gmail.com",
+        "datePlaced": "2018-11-03",
+        "dateShipped": "2018-11-20",
+        "paymentType": "check",
+        "amountDue": 54.00
+        
+    },
+    {
+        "_id": 3,
+        "orderID": 503,
+        "email": "bapiraju@lohithalifesciences.com",
+        "datePlaced": "2018-10-05",
+        "dateShipped": "2018-10-08",
+        "paymentType": "credit card",
+        "amountDue": 10.00
+     
+    },
+    {
+        "_id": 4,
+        "orderID": 603,
+        "email": "jyostnavegiraju@gmail.com",
+        "datePlaced": "2018-09-28",
+        "dateShipped": "2018-10-03",
+        "paymentType": "not selected yet",
+        "amountDue": 8.00
+        
+    },
+    {
+        "_id": 5,
+        "orderID": 803,
+        "email": "S533975@nwmissouri.edu",
+        "datePlaced": "2018-09-05",
+        "dateShipped": "2018-10-07",
+        "paymentType": "not selected yet",
+        "amountDue": 10.00 
+       
+    }
+
+]
