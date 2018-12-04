@@ -1,7 +1,7 @@
-/**
- * Customer Scheme to store customer details
- * @author Razeena Rao
- */
+// /**
+//  * Customer Scheme to store customer details
+//  * @author Razeena Rao
+//  */
 const mongoose = require('mongoose')
 
 const customerSchema = new mongoose.Schema({

@@ -1,43 +1,27 @@
 
-[
-    {
-        "_id": 1,
-        "order_id": "734",
-        "quantity": "",
-        "productInfo": ""
-        
-    },
-    
-    {
-        "_id": 2,
-        "order_id": "234",
-        "quantity": "",
-        "productInfo": ""
-        
-    },
-    
-    {
-        "_id": 3,
-        "order_id": "124",
-        "quantity": "",
-        "productInfo": ""
-        
-    },
-    
-    {
-        "_id": 4,
-        "order_id": "878",
-        "quantity": "",
-        "productInfo": ""
-        
-    },
-    
-    {
-        "_id": 5,
-        "order_id": "542",
-        "quantity": "",
-        "productInfo": ""
-        
-    }
+    const mongoose = require('mongoose')
 
-]
+    const OrderLineItemSchema = new mongoose.Schema({
+    
+      _id: { type: Number, required: true},
+      orderID: {
+        type: Number,
+        required: true
+      },
+      lineNumber: {
+        type: Number,
+        required: true
+      },
+      productKey: {
+        type: String,
+        required: true
+      },
+      quantity: {
+        type: Number,
+        required: true, 
+        default: 1
+      }
+    
+    })
+    module.exports = mongoose.model('orderlineitem', OrderLineItemSchema)
+    

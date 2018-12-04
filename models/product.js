@@ -29,6 +29,7 @@ const ProductSchema = new mongoose.Schema({
     max: 100000
   },
   type: {
+      type: String,
       required: true,
       default: "Andriod"
   }

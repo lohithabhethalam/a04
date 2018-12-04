@@ -1,12 +1,21 @@
+<h1>E-commerce app 4-8</h1>
+
 Division of Project 
 
-CUSTOMER - RAZEENA RAO
+##Group Assignment 
 
-PRODUCT - KARTHIK REDDY
+CUSTOMER - RAZEENA RAO (Views, models, controls)
+
+PRODUCT - KARTHIK REDDY (Views, models, controls)
 
 ORDER - LOHITHA BHETHALAM (Views, models, controls)
 
-ORDER_LINE_ITEM - MANASA GINJUPALLI
+ORDER_LINE_ITEM - MANASA GINJUPALLI (Views, models, controls)
 
-Implemented product with model and data
-Implemented order
+##Overview
+
+-This app contains orders, products, customers, orderlineitems.
+
+-You can create new orders, products, customers, orderlineitems.Similarly you can update and delete them.
+
+-You can also retrieve data about particuler orders, products, customers, orderlineitems by using its ID.
