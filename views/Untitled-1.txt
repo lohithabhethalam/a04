@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Workload Estimator</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="container-fluid">
+
+    <h1>Given count of developers and number of tasks to complete, display average tasks per developer</h1>
+    <h3>Right-click / Inspect, then select console</h3>
+
+    <p>Enter your name:
+      <input id="guest" type="string" value="Eden">
+    </p>
+
+    <p>Enter first number:
+      <input id="firstNumber" type="number" value="7">
+    </p>
+
+    <p>Enter second number:
+      <input id="secondNumber" type="number" value="12">
+    </p>
+
+    <button id="clicker" class="btn btn-primary">Click me!</button>
+
+    <p id="result"></p>
+
+  </main>
+
+  <script>
+    console.log("SCRIPT START")
+    console.log("Declare functions..............................")
+    function add(x, y) {
+      return x + y
+    }
+    console.log("add=" + add)
+    console.log("Declare event listeners .......................")
+    document.addEventListener("dblclick", function () {
+      console.log("add(a,b)=" + add(a, b))
+    })
+    document.getElementById("clicker").addEventListener("click", function () {
+      const s = document.getElementById("guest").value
+      const i = parseInt(document.getElementById("firstNumber").value)
+      console.log("i=" + i)
+      const j = parseInt(document.getElementById("secondNumber").value)
+      console.log("j=" + j)
+      const ans = s + ", your sum is " + add(i, j) + "."
+      document.getElementById("result").innerHTML = ans
+    })
+    console.log("SCRIPT END")
+  </script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
+</body>
+
+</html>

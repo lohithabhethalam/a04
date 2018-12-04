@@ -1,7 +1,7 @@
 // author: lohitha bhethalam 
 const DataStore = require('nedb')
 const LOG = require('../utils/logger.js')
-const products=require('../data/products.json')
+const products=require('../data/product.json')
 const customers = require('../data/customers.json')
 const orders=require('../data/orders.json')
 const orderlineitem=require('../data/orderlineitem.json')
